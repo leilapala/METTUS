@@ -1,0 +1,191 @@
+{
+    "categories": [
+      { "id": 1, "name": "pantalones" },
+      { "id": 2, "name": "buzos" },
+      { "id": 3, "name": "remeras" },
+      { "id": 4, "name": "tops" }
+    ],
+
+
+    "products": [
+      {
+        "id": 1,
+        "name": "BUZO NAZI",
+        "description": "Description of Product 1",
+        "price": 100,
+        "image": "imagen-del-producto-1.jpeg",
+        "imageDetail": [
+          { "id": 1, "url": "buzoNazi.png.jpg" },
+          { "id": 2, "url": "BUZO.jpg" },
+          { "id": 3, "url": "topBiker.jpg" }
+        ],
+        "categoryId": 1
+      },
+
+
+      
+      {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topBiker.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 2
+      },
+      {
+        "id": 3,
+        "name": "Product 67",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 2
+      },
+      {
+        "id": 3,
+        "name": "Product 67",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 3
+      },
+      {
+        "id": 3,
+        "name": "Product 67",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 3
+      },
+      {
+        "id": 3,
+        "name": "Product 67",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 3
+      },
+      {
+        "id": 3,
+        "name": "Product 67",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 3
+      },
+
+
+
+      {
+        "id": 4,
+        "name": "Product 3",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "buzoNazi.png.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 4
+      },
+            {
+        "id": 5,
+        "name": "Product 2",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "imagen-del-producto-1.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 4
+      },
+      {
+        "id": 6,
+        "name": "Product 79",
+        "description": "Description of Product 79",
+        "price": 150,
+        "image": "buzoCarabela.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "buzoCarabela.jpg" },
+          { "id": 2, "url": "buzoNazi.jpg" },
+          { "id": 3, "url": "topBiker.jpg" }
+        ],
+        "categoryId": 4
+      },
+      {
+        "id": 6,
+        "name": "Product 79",
+        "description": "Description of Product 79",
+        "price": 150,
+        "image": "buzoCarabela.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "buzoCarabela.jpg" },
+          { "id": 2, "url": "buzoNazi.jpg" },
+          { "id": 3, "url": "topBiker.jpg" }
+        ],
+        "categoryId": 4
+      },
+      {
+        "id": 7,
+        "name": "Product 79",
+        "description": "Description of Product 79",
+        "price": 150,
+        "image": "buzoCarabela.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "7buzoCarabela.jpg" },
+          { "id": 2, "url": "buzoNazi.jpg" },
+          { "id": 3, "url": "topBiker.jpg" }
+        ],
+        "categoryId": 4
+      },
+      {
+        "id": 8,
+        "name": "Product 79",
+        "description": "Description of Product 79",
+        "price": 150,
+        "image": "buzoCarabela.jpg",
+        "imageDetail": [
+          { "id": 1, "url": "buzoCarabela.jpg" },
+          { "id": 2, "url": "buzoNazi.jpg" },
+          { "id": 3, "url": "topBiker.jpg" }
+        ],
+        "categoryId": 4
+      }
+
+
+   
+    ]
+  }
+  

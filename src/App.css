@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+/* En App.css */
+html {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth; /* Agrega esta línea para un desplazamiento suave */
+}
+/* Estilos generales para la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffffff, #30475e); /* Fondo degradado */
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para el encabezado */
+.header {
+  background: linear-gradient(to right, #30475e, #0a192f); /* Cambio a degradado oscuro */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center; /* Centrar el contenido */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brand {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Centrar el logo y el nombre de la marca */
+ }
+
+ 
+.logo {
+  width: 60px; /* Ajustar el tamaño del logo */
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5); 
 }
 
-.App-link {
-  color: #61dafb;
+.brand-name {
+  font-size: 36px; /* Aumentar el tamaño del nombre de la marca */
+  margin: 0;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para la barra de navegación */
+.navigation {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  background-color: #1f2a3f; /* Cambio de fondo a tono azul oscuro */
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 20px; /* Aumentar el espaciado entre los enlaces */
+  font-size: 20px; /* Reducir el tamaño de fuente */
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los carruseles de productos */
+.product-carousel {
+  padding: 40px 20px; /* Aumentar el espaciado */
+}
+
+.category-title {
+  font-size: 32px; /* Aumentar el tamaño del título */
+  margin-bottom: 20px; /* Aumentar el espaciado inferior */
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 20px; /* Añadir espacio inferior */
 }

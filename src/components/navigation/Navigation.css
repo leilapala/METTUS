@@ -1,0 +1,82 @@
+/* En Navigation.css */
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap; /* Añadir envoltura de elementos para responsive */
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.categories {
+  display: flex; /* Asegurarse de que las categorías estén en una fila */
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+  gap: 50px; /* Espacio entre las categorías */
+}
+.category {
+  margin: 0 10px; /* Añadir un espacio entre las categorías */
+  cursor: pointer;
+  color: #181818;
+  font-size: 18px;
+  font-weight: bold; /* Agregar un peso de fuente */
+  position: relative; /* Para agregar el efecto de resaltado */
+  display: inline-block; /* Cambiar a en línea para estar en la misma fila */
+  white-space: nowrap; /* Evitar el salto de línea */
+  padding: 10px 15px; /* Añadir espacio alrededor de las categorías */
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Agregar transición */
+}
+.category:hover {
+
+  background-color: #00ffcc; /* Color fluorecente */
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5); /* Sombra al resaltar */
+}
+
+/* Agrega este estilo para un desplazamiento suave */
+.category a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.category a:hover {
+  color: #3d8b7c; /* Cambio de color al pasar el mouse */
+}
+
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap; /* Añadir envoltura de elementos para responsive */
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Estilos para la versión móvil */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column; /* Cambio a dirección vertical */
+    align-items: flex-start; /* Alinear al comienzo verticalmente */
+    padding: 20px; /* Aumentar el espaciado para mayor legibilidad */
+  }
+
+  .categories {
+    flex-direction: column; /* Cambio a dirección vertical */
+    gap: 10px; /* Espaciado entre categorías en versión móvil */
+    margin-top: 10px; /* Reducir el margen superior */
+  }
+
+  .category {
+    margin: 5px 0; /* Espaciado entre categorías en versión móvil */
+    padding: 5px 15px; /* Ajustar el padding para mayor legibilidad */
+    width: fit-content; /* Ajustar el ancho al contenido del texto */
+    text-align: left; /* Alinear el texto a la izquierda */
+  }
+}

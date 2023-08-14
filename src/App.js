@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/header/Header';
+import Navigation from './components/navigation/Navigation';
+import ProductCarousel from './components/product/ProductCarousel';
+import Footer from './components/footer/Footer'; // Asegúrate de agregar esta importación
+import data from './data.json';
+
 import './App.css';
 
-function App() {
+const App = () => {
+  const { products } = data;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <Navigation />
+      <ProductCarousel category="Pantalones" products={products.filter(product => product.categoryId === 1)} />
+      <ProductCarousel category="Buzos" products={products.filter(product => product.categoryId === 2)} />
+      <ProductCarousel category="Remeras" products={products.filter(product => product.categoryId === 3)} />
+      <ProductCarousel category="Tops" products={products.filter(product => product.categoryId === 4)} />
+      <Footer />
     </div>
   );
-}
+  
+};
 
 export default App;

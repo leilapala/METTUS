@@ -1,0 +1,74 @@
+/* En Footer.css */
+
+.footer {
+    background: linear-gradient(to bottom, #30475e, #0a192f); /* Fondo degradado */
+    color: #ffffff;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .footer-description {
+    margin: 20px 0;
+  }
+  
+  .footer-instagram,
+  .footer-whatsapp {
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0.7;
+  }
+  
+  .footer-instagram:hover,
+  .footer-whatsapp:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .footer-instagram img,
+  .footer-whatsapp img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .footer-brand {
+      width: 100%;
+    }
+    
+    .brand-name {
+      font-size: 20px;
+    }
+  }
+  
+  

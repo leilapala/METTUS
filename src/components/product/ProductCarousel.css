@@ -1,0 +1,127 @@
+/* En ProductCarousel.css */
+
+.product-carousel {
+    padding: 20px;
+    overflow: hidden; /* Ocultamos el desbordamiento para el carrusel */
+  }
+  
+  .category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el título de la categoría */
+  }
+  
+  .carousel {
+   
+    display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  align-items: center; /* Centrar horizontalmente los productos */
+  justify-content: flex-start; /* Alinear los productos a la izquierda */
+  margin: 0 -10px; /* Agregar margen negativo para evitar espacio en los extremos */ 
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: #007bff transparent; /* Color de la barra y color de fondo */
+  flex-wrap: nowrap; /* Evitamos que las imágenes se salten de línea */
+}
+  
+/* Estilos para la barra de desplazamiento */
+.carousel::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #2cbdc29c; /* Color de la barra de desplazamiento */
+  border-radius: 50px; /* Borde redondeado */
+  width: 2px;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5); /* Sombra al resaltar */
+}
+.carousel::-webkit-scrollbar-track {
+  background-color: rgba(0, 255, 204, 0.162); /* Color de fondo de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+
+  .product-box {
+    flex: 0 0 280px;
+    margin-right: 20px;
+    border: 1px solid #cccccc00;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 0 calc(25% - 20px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d1e1f;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  
+  .product-btn {
+    background-color: #434343;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5); /* Sombra al resaltar */
+  }
+  
+  .product-btn:hover {
+    background-color: rgba(0, 255, 204, 0.5);
+  }
+
+/* Estilos para la versión móvil */
+@media (max-width: 768px) {
+  .carousel {
+    
+    justify-content:flex-start; /* Centrar horizontalmente los productos */
+    padding: 20px 10px; /* Ajustar espaciado superior e inferior */
+  }
+
+  .product-box {
+    flex: 0 0 calc(75% - 0px); /* 2 productos por fila en dispositivos móviles */
+    margin: 10px; /* Espaciado entre productos */
+  }
+
+  .product-image {
+    height: 300px; /* Reducir altura de la imagen */
+  }
+
+  .product-name {
+    font-size: 14px; /* Reducir el tamaño de fuente */
+  }
+
+  .product-description {
+    font-size: 10px; /* Reducir el tamaño de fuente */
+  }
+
+  .product-price {
+    font-size: 14px; /* Reducir el tamaño de fuente */
+  }
+}

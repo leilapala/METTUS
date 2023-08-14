@@ -1,0 +1,176 @@
+/* En ProductMODAL.css */
+
+.product-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 36, 98, 0.71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-modal {
+    background-color: rgb(225, 244, 246);
+    width: 75%;
+    max-width: 500px;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: relative;
+    width: 90%; /* Ancho más estrecho para pantallas pequeñas */
+    border-radius: 10px;
+    
+  }
+  
+  .close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-image-container {
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    height: 420px;
+  }
+  
+  .product-details {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: -35px;
+  }
+  
+  .product-image-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Agregamos un margen superior para separar las imágenes del contenido anterior */
+  }
+  
+  .product-image-detail {
+    width: 150px; /* Aumentamos el tamaño de las imágenes de detalle */
+    max-height: 420px; /* Aumentamos el tamaño máximo */
+    object-fit: cover;
+    cursor: pointer; /* Agregamos un cursor de puntero al pasar el mouse por encima */
+    transition: transform 0.3s; /* Agregamos una transición suave */
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  
+.product-image-detail:hover {
+    transform: scale(1.1); /* Al pasar el mouse, aumentamos ligeramente el tamaño de la imagen */
+  }
+
+
+  .product-buy-button {
+    background-color: #434343;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5); /* Sombra al resaltar */
+  }
+  
+  .product-buy-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Estilos para la versión móvil */
+@media (max-width: 768px) {
+    /* En ProductModal.css */
+
+.product-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 36, 98, 0.71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-modal {
+    background-color: rgb(225, 244, 246);
+    width: 90%; /* Ancho máximo en dispositivos móviles */
+    max-width: 500px;
+    padding: 20px;
+    border-color: black;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: relative;
+  }
+  
+  .close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+  
+  .product-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-image-container {
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Agregar bordes redondeados a la imagen */
+  }
+  
+  .product-details {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 px; /* Agregar espaciado lateral */
+  }
+  
+  .product-image-detail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente en dispositivos móviles */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en dispositivos móviles */
+  }
+  
+  .product-image-detail {
+    width: calc(33.33% - 10px); /* Ancho de imagen para mostrar tres en una fila */
+    max-height: 150px; /* Altura máxima */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 10px; /* Espaciado inferior entre imágenes */
+  }
+  
+  .product-image-detail:hover {
+    transform: scale(1.1);
+  }
+  
+    }
+  
