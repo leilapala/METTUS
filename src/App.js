@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Navigation from './components/navigation/Navigation';
 import ProductCarousel from './components/product/ProductCarousel';
-import Footer from './components/footer/Footer'; // Asegúrate de agregar esta importación
+import Footer from './components/footer/footer'; 
 import data from './data.json';
 
 import './App.css';
