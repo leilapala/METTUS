@@ -7,10 +7,10 @@ const Navigation = () => {
   return (
     <nav>
       <ul className="categories">
-        <li className="category"><a href="#pantalones">Pantalones</a></li>
-        <li className="category"><a href="#buzos">Buzos</a></li>
-        <li className="category"><a href="#remeras">Remeras</a></li>
-        <li className="category"><a href="#tops">Tops</a></li>
+        <li className="category"><a href="#Pantalones">Pantalones</a></li>
+        <li className="category"><a href="#Buzos">Buzos</a></li>
+        <li className="category"><a href="#Remeras">Remeras</a></li>
+        <li className="category"><a href="#Tops">Tops</a></li>
       </ul>
     </nav>
   );

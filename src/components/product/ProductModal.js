@@ -18,7 +18,7 @@ const ProductModal = ({ product, closeModal }) => {
       const whatsappMessage = `Hola, me gusta mucho esta prenda ${productName}, ¿tienen disponibilidad?`;
   
       const encodedMessage = encodeURIComponent(whatsappMessage);
-      const whatsappLink = `https://api.whatsapp.com/send?phone=1168028555&text=${encodedMessage}`;
+      const whatsappLink = `https://api.whatsapp.com/send?phone=+1168028555&text=${encodedMessage}`;
   
       window.open(whatsappLink, '_blank'); // Abre enlace en una nueva pestaña
     };
