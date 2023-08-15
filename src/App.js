@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Navigation from './components/navigation/Navigation';
 import ProductCarousel from './components/product/ProductCarousel';
-import Footer from './components/footer/footer'; 
+import PiePagina from './components/footer/PiePagina'; 
 import data from './data.json';
 
 import './App.css';
@@ -18,7 +18,7 @@ const App = () => {
       <ProductCarousel category="Buzos" products={products.filter(product => product.categoryId === 2)} />
       <ProductCarousel category="Remeras" products={products.filter(product => product.categoryId === 3)} />
       <ProductCarousel category="Tops" products={products.filter(product => product.categoryId === 4)} />
-      <Footer />
+      <PiePagina />
     </div>
   );
   

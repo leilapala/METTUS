@@ -3,7 +3,7 @@ import "./footer.css" ;
 import instagramLogo from "./instagram.png";
 import whatsappLogo from "./whatsapp.png";
 
-const Footer = () => {
+const PiePagina = () => {
   const handleInstagramClick = () => {
     window.open('https://www.instagram.com/mettusss/', '_blank');
   };
@@ -35,4 +35,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default PiePagina;
