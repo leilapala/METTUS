@@ -30,7 +30,7 @@ const ProductModal = ({ product, closeModal }) => {
           <div className="product-image-container">
             <img
               src={process.env.PUBLIC_URL + `/assets/${mainImage}`} /* Usamos la imagen principal */
-              className="product-image"
+              className="product-image2"
               alt={product.name}
             />
           </div>

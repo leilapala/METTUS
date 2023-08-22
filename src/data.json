@@ -1,16 +1,18 @@
 {
     "categories": [
-      { "id": 1, "name": "pantalones" },
-      { "id": 2, "name": "buzos" },
-      { "id": 3, "name": "remeras" },
-      { "id": 4, "name": "tops" }
+      { "id": 1, "name": "ultimos" },
+      { "id": 2, "name": "Remeras" },
+      { "id": 3, "name": "tops" },
+      { "id": 4, "name": "buzos" },
+      { "id": 5, "name": "pantalones" }
+      
     ],
 
 
     "products": [
       {
         "id": 1,
-        "name": "BUZO NAZI",
+        "name": "BUZO NAZIuuuuu",
         "description": "Description of Product 1",
         "price": 100,
         "image": "imagen-del-producto-1.jpeg",
@@ -21,9 +23,129 @@
         ],
         "categoryId": 1
       },
+      {
+        "id": 8,
+        "name": "Product 6777",
+        "description": "Description of Product 2",
+        "price": 150,
+        "image": "topSeA.webp",
+        "imageDetail": [
+          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
+          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
+          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+        ],
+        "categoryId": 1
+      },
 
 
-      
+      {		
+        "id": 	1	,
+        "name": 	"Vestido MOTOMAMI ONE",	
+        "description": 	"Vestido de Tela Modal Soft",	
+        "price": 16500,	
+        "image": 	"VestidoMotoONE.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "VestidoMotoONE.jpeg" },	
+          { "id": 2, "url": "VestidoMotoONE.jpeg" },	
+          { "id": 3, "url": "caracterisitcas.jpeg" }	
+          ],	
+        "categoryId": 	1	
+        },	
+        {	
+      "id": 	2,
+      "name": 	"Vestido MOTOMAMI TWO",
+      "description": 	"Vestido de Tela Modal Soft",
+      "price": 	16500,
+      "image": 	"VestidoMotoTWO.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "VestidoMotoTWO.jpeg" },
+      	{ "id": 2, "url": "VestidoMotoTWO2.jpeg" },
+      	{ "id": 3, "url": "caracterisitcas.jpeg" }
+      	],
+      "categoryId": 	1
+      },	
+
+
+
+      {	
+      "id": 	3,
+      "name": 	"Vestido MOTOMAMI THREE",
+      "description": 	"Vestido de Tela Modal Soft",
+      "price": 	16500,
+      "image": 	"VestidoMotoTHREE.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "VestidoMotoTHREE.jpeg" },
+      	{ "id": 2, "url": "VestidoMotoTHREE2.jpeg" },
+      	{ "id": 3, "url": "caracterisitcas.jpeg" }
+      	],
+      "categoryId": 	1
+      },	
+
+
+
+      {	
+      "id": 	4,
+      "name": 	"Vestido Double Dragon 🐉🐉",
+      "description": 	"Vestido de Tela Modal Soft",
+      "price": 	6500,
+      "image": 	 "VestidoDragon.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "VestidoDragon.jpeg" },
+      	{ "id": 2, "url": "VestidoDragon2.jpeg" },
+      	{ "id": 3, "url": "caracterisitcas.jpeg" }
+      	],
+      "categoryId": 	1
+      },	
+
+
+
+      {	
+      "id": 	5,
+      "name": 	"Vestudi NUDE",
+      "description": 	"Vestido de Tela Modal Soft",
+      "price": 	5500,
+      "image": 	"VestidoNude.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "VestidoNude.jpeg" },
+      	{ "id": 2, "url": "VestidoNude2.jpeg" },
+      	{ "id": 3, "url": "caracterisitcas.jpeg" }
+      	],
+      "categoryId": 	1
+      },	
+
+
+
+      {	
+      "id": 	60,
+      "name": 	"Pantalon splash",
+      "description": 	"'-",
+      "price": 	14500,
+      "image": 	"PantalonSplash.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "PantalonSplash.jpeg" },
+      	{ "id": 2, "url": "PantalonSplash.jpeg" },
+      	{ "id": 3, "url": "imagen-3-del-producto-2.jpg" }
+      	],
+      "categoryId": 	5
+      },	
+
+
+
+      {	
+      "id": 	20,
+      "name": 	"remera dragon",
+      "description": 	"Remera de Algodon",
+      "price": 	5850,
+      "image": 	"RemeraDragon.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "RemeraDragon.jpeg" },
+      	{ "id": 2, "url": "RemeraDragon.jpeg" },
+      	{ "id": 3, "url": "RemeraDragon.jpeg" }
+      	],
+      "categoryId": 	1
+      },		
+
+        
       {
         "id": 2,
         "name": "Product 2",
@@ -50,6 +172,95 @@
         ],
         "categoryId": 2
       },
+
+      {		
+        "id": 	30	,
+        "name": 	"top GIRL POWER",	
+        "description": 	"👀🫦",	
+        "price": 	6350	,
+        "image": 	"TopGirlPower.jpg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopGirlPower.jpg" },	
+          { "id": 2, "url": "TopGirlPower2.jpg" },	
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+        {		
+        "id": 	31	,
+        "name": 	"top NETX",	
+        "description": 	"➡️➡️",	
+        "price": 	4700	,
+        "image": 	"TopNext.png"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopNext.png" },	
+          { "id": 2, "url": "logo.png" },	
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+
+        {		
+        "id": 	32	,
+        "name": 	"TOP KIKA",	
+        "description": 	"➡️➡️",	
+        "price": 	7350	,
+        "image": 	"TopKika.webp"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopKika.webp" },	
+          { "id": 2, "url": "TopKika2.webp" },	
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+
+        {		
+        "id": 	33	,
+        "name": 	"TOP REFLEC",	
+        "description": 	"MEDIDAS APROXIMADAS (las medidas son tomadas con la prenda plana), Largo: 39cm ,Ancho: 32cm",
+        "price": 	9250	,
+        "image": 	"TopReflex.webp"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopReflex.webp" },	
+          { "id": 2, "url": "TopReflex2.webp" },	
+          { "id": 3, "url": "TopReflex3.webp" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+
+        {		
+        "id": 	34	,
+        "name": 	"TOP REALLY",	
+        "description": 	"Medidas Aproximadas, Largo: 30 cm ,Ancho: 32 cm",	
+        "price": 	4950	,
+        "image": 	"TopReally.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopReally.jpeg" },	
+          { "id": 2, "url": "TopReally1.webp" },	
+          { "id": 3, "url": "TopReally3.webp" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+        {		
+        "id": 	35	,
+        "name": 	"TOP TOKIO",	
+        "description": 	"Medidas Aproximadas, Largo: 35 cm, Ancho: 36 cm, Mangas: 16 cm",	
+        "price": 	3900	,
+        "image": 	"TopTokio.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "TopTokio.jpeg" },	
+          { "id": 2, "url": "TopTokio2.jpeg" },	
+          { "id": 3, "url": "TopTokio3.webp" }	
+          ],	
+        "categoryId": 	3	
+        },		
+
+
       {
         "id": 3,
         "name": "Product 67",
@@ -61,7 +272,7 @@
           { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
           { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
         ],
-        "categoryId": 3
+        "categoryId": 5
       },
       {
         "id": 3,
@@ -74,118 +285,84 @@
           { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
           { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
         ],
-        "categoryId": 3
-      },
-      {
-        "id": 3,
-        "name": "Product 67",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 3
-      },
-      {
-        "id": 3,
-        "name": "Product 67",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 3
+        "categoryId": 5
       },
 
 
 
-      {
-        "id": 4,
-        "name": "Product 3",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "buzoNazi.png.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 4
-      },
-            {
-        "id": 5,
-        "name": "Product 2",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "imagen-del-producto-1.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 4
-      },
-      {
-        "id": 6,
-        "name": "Product 79",
-        "description": "Description of Product 79",
-        "price": 150,
-        "image": "buzoCarabela.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "buzoCarabela.jpg" },
-          { "id": 2, "url": "buzoNazi.jpg" },
-          { "id": 3, "url": "topBiker.jpg" }
-        ],
-        "categoryId": 4
-      },
-      {
-        "id": 6,
-        "name": "Product 79",
-        "description": "Description of Product 79",
-        "price": 150,
-        "image": "buzoCarabela.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "buzoCarabela.jpg" },
-          { "id": 2, "url": "buzoNazi.jpg" },
-          { "id": 3, "url": "topBiker.jpg" }
-        ],
-        "categoryId": 4
-      },
-      {
-        "id": 7,
-        "name": "Product 79",
-        "description": "Description of Product 79",
-        "price": 150,
-        "image": "buzoCarabela.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "7buzoCarabela.jpg" },
-          { "id": 2, "url": "buzoNazi.jpg" },
-          { "id": 3, "url": "topBiker.jpg" }
-        ],
-        "categoryId": 4
-      },
-      {
-        "id": 8,
-        "name": "Product 79",
-        "description": "Description of Product 79",
-        "price": 150,
-        "image": "buzoCarabela.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "buzoCarabela.jpg" },
-          { "id": 2, "url": "buzoNazi.jpg" },
-          { "id": 3, "url": "topBiker.jpg" }
-        ],
-        "categoryId": 4
-      }
-
-
-   
+      {		
+        "id": 	40	,
+        "name": 	"BUZO ATACKK",	
+        "description": 	"Buzo algodon frisado",	
+        "price": 	12900	,
+        "image": 	 "BuzoAtackk.jpg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "BuzoAtackk.jpg" },	
+          { "id": 2, "url": "BuzoAtackk2.jpg" },	
+          { "id": 3, "url": "TalleBuzosPanic.png" }	
+          ],	
+        "categoryId": 	4	
+        },		
+            
+        {		
+        "id": 	41	,
+        "name": 	"BUZO SKY",	
+        "description": 	"Buzo algodon frisado",	
+        "price": 	11000	,
+        "image": 	"BuzoSky.jpg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "BuzoSky.jpg" },	
+          { "id": 2, "url": "BuzoSky2.jpg" },	
+          { "id": 3, "url": "TalleBuzosPanic.png" }	
+          ],	
+        "categoryId": 	4	
+        },		
+            
+            
+            
+        {		
+        "id": 	42	,
+        "name": 	"BUZO BLACK SKY",	
+        "description": 	"Buzo algodon frisado",	
+        "price": 	11000	,
+        "image": 	"BuzoBlackSky.jpg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "BuzoBlackSky.jpg" },	
+          { "id": 2, "url": "BuzoBlackSky2.jpg" },	
+          { "id": 3, "url": "TalleBuzosPanic.png" }	
+          ],	
+        "categoryId": 	4	
+        },		
+            
+            
+        {		
+        "id": 	43	,
+        "name": 	"BUZO WEIRD",	
+        "description": 	"Buzo algodon frisado",	
+        "price": 	12500	,
+        "image": 	"BuzoWEIRD.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "BuzoWEIRD.jpeg" },	
+          { "id": 2, "url": "BuzoWEIRD2.jpeg" },	
+          { "id": 3, "url": "TalleBuzosPanic.png" }	
+          ],	
+        "categoryId": 	4	
+        },		
+            
+            
+        {		
+        "id": 	44	,
+        "name": 	"BUZO CALABERA",	
+        "description": 	"Buzo algodon frisado",	
+        "price": 	12500	,
+        "image": 	"Buzocalabera.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "Buzocalabera.jpeg" },	
+          { "id": 2, "url": "Buzocalabera2.jpeg" },	
+          { "id": 3, "url": "TalleBuzosPanic.png" }	
+          ],	
+        "categoryId": 	4	
+        }		
     ]
   }
   
