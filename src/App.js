@@ -14,11 +14,13 @@ const App = () => {
     <div className="app">
       <Header />
       <Navigation />
-      <ProductCarousel category="Ultimos" products={products.filter(product => product.categoryId === 1)} />
+      <ProductCarousel category="🔥⌛🔥LAST CHANCE🔥⌛🔥" products={products.filter(product => product.categoryId === 1)} />
+      <ProductCarousel category="Corset" products={products.filter(product => product.categoryId === 6)} />
       <ProductCarousel category="Remeras" products={products.filter(product => product.categoryId === 2)} />
       <ProductCarousel category="Tops" products={products.filter(product => product.categoryId === 3)} />
       <ProductCarousel category="Buzos" products={products.filter(product => product.categoryId === 4)} />
       <ProductCarousel category="Pantalones" products={products.filter(product => product.categoryId === 5)} />
+      
       <PiePagina />
     </div>
   );
@@ -26,3 +28,5 @@ const App = () => {
 };
 
 export default App;
+
+
