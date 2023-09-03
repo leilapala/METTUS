@@ -4,39 +4,13 @@
       { "id": 2, "name": "Remeras" },
       { "id": 3, "name": "tops" },
       { "id": 4, "name": "buzos" },
-      { "id": 5, "name": "pantalones" }
+      { "id": 5, "name": "pantalones" },
+      { "id": 6, "name": "corset"} 
       
     ],
 
 
     "products": [
-      {
-        "id": 1,
-        "name": "BUZO NAZIuuuuu",
-        "description": "Description of Product 1",
-        "price": 100,
-        "image": "imagen-del-producto-1.jpeg",
-        "imageDetail": [
-          { "id": 1, "url": "buzoNazi.png.jpg" },
-          { "id": 2, "url": "BUZO.jpg" },
-          { "id": 3, "url": "topBiker.jpg" }
-        ],
-        "categoryId": 1
-      },
-      {
-        "id": 8,
-        "name": "Product 6777",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 1
-      },
-
 
       {		
         "id": 	1	,
@@ -87,7 +61,7 @@
       "id": 	4,
       "name": 	"Vestido Double Dragon 🐉🐉",
       "description": 	"Vestido de Tela Modal Soft",
-      "price": 	6500,
+      "price": 	10500,
       "image": 	 "VestidoDragon.jpeg",
       "imageDetail": [	
       	{ "id": 1, "url": "VestidoDragon.jpeg" },
@@ -97,42 +71,8 @@
       "categoryId": 	1
       },	
 
-
-
-      {	
+     {	
       "id": 	5,
-      "name": 	"Vestudi NUDE",
-      "description": 	"Vestido de Tela Modal Soft",
-      "price": 	5500,
-      "image": 	"VestidoNude.jpeg",
-      "imageDetail": [	
-      	{ "id": 1, "url": "VestidoNude.jpeg" },
-      	{ "id": 2, "url": "VestidoNude2.jpeg" },
-      	{ "id": 3, "url": "caracterisitcas.jpeg" }
-      	],
-      "categoryId": 	1
-      },	
-
-
-
-      {	
-      "id": 	60,
-      "name": 	"Pantalon splash",
-      "description": 	"'-",
-      "price": 	14500,
-      "image": 	"PantalonSplash.jpeg",
-      "imageDetail": [	
-      	{ "id": 1, "url": "PantalonSplash.jpeg" },
-      	{ "id": 2, "url": "PantalonSplash.jpeg" },
-      	{ "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-      	],
-      "categoryId": 	5
-      },	
-
-
-
-      {	
-      "id": 	20,
       "name": 	"remera dragon",
       "description": 	"Remera de Algodon",
       "price": 	5850,
@@ -145,33 +85,156 @@
       "categoryId": 	1
       },		
 
+      {	
+      "id": 	6,
+      "name": 	"Vestudi NUDE",
+      "description": 	"Vestido de Tela Modal Soft",
+      "price": 	16500,
+      "image": 	"VestidoNude.jpeg",
+      "imageDetail": [	
+      	{ "id": 1, "url": "VestidoNude.jpeg" },
+      	{ "id": 2, "url": "VestidoNude2.jpeg" },
+      	{ "id": 3, "url": "caracterisitcas.jpeg" }
+      	],
+      "categoryId": 	1
+      },	
+
+      {		
+        "id": 	10	,
+        "name": 	"CORSET IN COLORS 💜",	
+        "description": 	"talles del S al XXL"	,
+        "price": 	15450	,
+        "image": 	"CORSETCOLORS1.jpeg",	
+        "imageDetail": [		
+          { "id": 1, "url": "CORSETCOLORS1.jpeg" },	
+          { "id": 2, "url": "CORSETCOLORS11.jpeg" },	
+          { "id": 3, "url": "CORSETCOLORS6.jpeg" }	
+          ],	
+        "categoryId": 	6	
+        },		
+            
+            
+        {		
+        "id": 	11	,
+        "name": 	"CORSET IN COLORS 🧡",	
+        "description": 	"talles del S al XXL",
+        "price": 	15450	,
+        "image": 	"CORSETCOLORS2.jpeg",	
+        "imageDetail": [		
+          { "id": 1, "url": "CORSETCOLORS2.jpeg" },	
+          { "id": 2, "url": "CORSETCOLORS22.jpeg" },	
+          { "id": 3, "url": "CORSETCOLORS6.jpeg" }	
+          ],	
+        "categoryId": 	6	
+        },		
+            
+            
+        {		
+        "id": 	11	,
+        "name": 	"CORSET IN COLORS 💚",	
+        "description": 	"talles del S al XXL"	,
+        "price": 	15450	,
+        "image": 	"CORSETCOLORS3.jpeg",	
+        "imageDetail": [		
+          { "id": 1, "url": "CORSETCOLORS3.jpeg" },	
+          { "id": 2, "url": "CORSETCOLORS33.jpeg" },	
+          { "id": 3, "url": "CORSETCOLORS6.jpeg" }	
+          ],	
+        "categoryId": 	6	
+        },		
+            
+            
+            
+        {		
+        "id": 	12	,
+        "name": 	"CORSET IN COLORS 🤎",	
+        "description": 	"talles del S al XXL"	,
+        "price": 	15450	,
+        "image": 	"CORSETCOLORS4.jpeg",	
+        "imageDetail": [		
+          { "id": 1, "url": "CORSETCOLORS4.jpeg" },	
+          { "id": 2, "url": "CORSETCOLORS44.jpeg" },	
+          { "id": 3, "url": "CORSETCOLORS6.jpeg" }	
+          ],	
+        "categoryId": 	6	
+        },		
+            
+            
+        {		
+        "id": 	13	,
+        "name": 	"CORSET IN COLORS ❤️",	
+        "description": 	"talles del S al XXL"	,
+        "price": 	15450	,
+        "image": 	"CORSETCOLORS5.jpeg",	
+        "imageDetail": [		
+          { "id": 1, "url": "CORSETCOLORS5.jpeg" },	
+          { "id": 2, "url": "CORSETCOLORS55.jpeg" },	
+          { "id": 3, "url": "CORSETCOLORS6.jpeg" }	
+          ],	
+        "categoryId": 	6	
+        },	
         
-      {
-        "id": 2,
-        "name": "Product 2",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topBiker.jpg",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 2
-      },
-      {
-        "id": 3,
-        "name": "Product 67",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 2
-      },
+          {		
+        "id": 	20	,
+        "name": 	"REMERA MICROTUL",	
+        "description": 	"XL"	,
+        "price": 	13750	,
+        "image": 	"MICROTUL.jpeg",	
+        "imageDetail": [		
+        	{ "id": 1, "url": "MICROTUL.jpeg" },	
+        	{ "id": 2, "url": "MICROTUL2.jpeg" },	
+        	{ "id": 3, "url": "MICROTUL3.jpeg" }	
+        	],	
+        "categoryId": 	2	
+        },		
+
+
+        {		
+        "id": 	21	,
+        "name": 	"REMERA ANDROIDL",	
+        "description": 	"DEL TALLE M AL XL"	,
+        "price": 	14000	,
+        "image": 	"REMERAANDROID.jpeg",	
+        "imageDetail": [		
+        	{ "id": 1, "url": "REMERAANDROID.jpeg" },	
+        	{ "id": 2, "url": "REMERAANDROID1.jpeg" },	
+        	{ "id": 3, "url": "REMERAANDROID2.jpeg" }	
+        	],	
+        "categoryId": 	2	
+        },		
+
+
+
+        {		
+        "id": 	22	,
+        "name": 	"POLERA ORGANIC",	
+        "description": 	"DEL TALLE S AL XL"	,
+        "price": 	13900	,
+        "image": 	"POLERAORGANIC.jpeg",	
+        "imageDetail": [		
+        	{ "id": 1, "url": "POLERAORGANIC.jpeg" },	
+        	{ "id": 2, "url": "POLERAORGANIC1.jpeg" },	
+        	{ "id": 3, "url": "POLERAORGANIC2.jpeg" }	
+        	],	
+        "categoryId": 	2	
+        },		
+
+
+        {		
+        "id": 	23	,
+        "name": 	"REMERA MONS",	
+        "description": 	"Black or White"	,
+        "price": 	7850	,
+        "image": 	"REMEMONS.jpeg",	
+        "imageDetail": [		
+        	{ "id": 1, "url": "REMEMONS.jpeg" },	
+        	{ "id": 2, "url": "REMEMONS1.jpeg" },	
+        	{ "id": 3, "url": "REMEMONS2.jpeg" }	
+        	],	
+        "categoryId": 	2	
+        },		
+
+
 
       {		
         "id": 	30	,
@@ -205,7 +268,7 @@
         {		
         "id": 	32	,
         "name": 	"TOP KIKA",	
-        "description": 	"➡️➡️",	
+        "description": 	"",	
         "price": 	7350	,
         "image": 	"TopKika.webp"	,
         "imageDetail": [		
@@ -259,37 +322,21 @@
           ],	
         "categoryId": 	3	
         },		
-
-
-      {
-        "id": 3,
-        "name": "Product 67",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 5
-      },
-      {
-        "id": 3,
-        "name": "Product 67",
-        "description": "Description of Product 2",
-        "price": 150,
-        "image": "topSeA.webp",
-        "imageDetail": [
-          { "id": 1, "url": "imagen-1-del-producto-2.jpg" },
-          { "id": 2, "url": "imagen-2-del-producto-2.jpg" },
-          { "id": 3, "url": "imagen-3-del-producto-2.jpg" }
-        ],
-        "categoryId": 5
-      },
-
-
-
+        			
+      {			
+        "id": 	36	,	
+        "name": 	"TOP RAIZ",		
+        "description": 	"Black or White"	,	
+        "price": 	5000	,	
+        "image": 	"TOPRAIZ.jpeg",		
+        "imageDetail": [			
+          { "id": 1, "url": "TOPRAIZ.jpeg" },		
+          { "id": 3, "url": "logo.png" }	,	
+          { "id": 3, "url": "logo.png" }		
+          ],		
+        "categoryId": 	3	
+        },			
+      
       {		
         "id": 	40	,
         "name": 	"BUZO ATACKK",	
@@ -362,7 +409,84 @@
           { "id": 3, "url": "TalleBuzosPanic.png" }	
           ],	
         "categoryId": 	4	
-        }		
+        },	
+        
+              {		
+        "id": 	50	,
+        "name": 	"PANTALON PARASHUTE",	
+        "description": 	"talles 36 as 42"	,
+        "price": 	14500	,
+        "image": 	"PantaParashute.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "PantaParashute.jpeg" },	
+          { "id": 2, "url": "PantaParashute.jpg" },	
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	5
+        },	
+
+        {		
+        "id": 	51	,
+        "name": 	"FALDA RED SKIRT",	
+        "description": 	"talles 36 al 38"	,
+        "price": 	6900	,
+        "image": 	"REDSKIRT.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "REDSKIRT.jpeg" },	
+          { "id": 2, "url": "logo.png" }	,
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	5
+        },		
+
+
+        {		
+        "id": 	52	,
+        "name": 	"PANTS GREYSA",	
+        "description": 	"talles 36 al 42"	,
+        "price": 	14900	,
+        "image": 	"pantsGreysa.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "pantsGreysa.jpeg" },	
+          { "id": 2, "url": "logo.png" }	,
+          { "id": 3, "url": "logo.png" }	
+          ],	
+        "categoryId": 	5
+        },		
+
+
+        {		
+        "id": 	53	,
+        "name": 	"PANTS CUADRILLE",	
+        "description": 	"talles del S al XXXL",
+        "price": 	24500	,
+        "image": 	"PANTSCUADRILLE.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "PANTSCUADRILLE.jpeg" },	
+          { "id": 2, "url": "PANTSCUADRILLE2.jpeg" }	,
+          { "id": 3, "url": "PANTSCUADRILLE3.jpeg" }	
+          ],	
+        "categoryId": 	5
+        },		
+
+
+        {		
+        "id": 	54	,
+        "name": 	"PANTS ZEBRA",	
+        "description": 	"talles del S al XXXL"	,
+        "price": 	24500	,
+        "image": 	"PANTSZEBRA.jpeg"	,
+        "imageDetail": [		
+          { "id": 1, "url": "PANTSZEBRA.jpeg" },	
+          { "id": 2, "url": "PANTSZEBRA2.jpeg" }	,
+          { "id": 3, "url": "PANTSZEBRA3.jpeg" }	
+          ],	
+        "categoryId": 	5
+        }
+
+
     ]
+
+
   }
   
