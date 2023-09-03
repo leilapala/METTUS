@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/METUSS/static/css/main.308984ef.css",
+    "main.js": "/METUSS/static/js/main.bac76875.js",
+    "static/media/instagram.png": "/METUSS/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/whatsapp.png": "/METUSS/static/media/whatsapp.d026940870fb334920b7.png",
+    "static/media/logo.png": "/METUSS/static/media/logo.3177834ab4dfcf2100d0.png",
+    "index.html": "/METUSS/index.html",
+    "main.308984ef.css.map": "/METUSS/static/css/main.308984ef.css.map",
+    "main.bac76875.js.map": "/METUSS/static/js/main.bac76875.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.308984ef.css",
+    "static/js/main.bac76875.js"
+  ]
+}
